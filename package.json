@@ -1,0 +1,14 @@
+{
+  "name": "nodejs-postgres",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cheloor Saravanan Mohandas <saravanan.mohandas24@gmail.com> (http://guru99.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^8.7.3"
+  }
+}
