@@ -9,6 +9,12 @@
   "author": "Cheloor Saravanan Mohandas <saravanan.mohandas24@gmail.com> (http://guru99.com/)",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "firebase": "^8.0.2",
+    "mongodb": "^4.3.1",
+    "nodemon": "^2.0.15",
     "pg": "^8.7.3"
   }
 }
