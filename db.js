@@ -1,11 +1,11 @@
  const { Pool,Client } = require('pg')
 
 // const pool = new Pool({
-//     user:'postgres',
-//     host:'localhost',
-//     database:'postgres',
-//     password:'ramanmenon',
-//     port:5432
+//     user:'your-username',
+//     host:'your-server',
+//     database:'your-database-name',
+//     password:'your-password',
+//     port:your-portname
 // })
 
 // pool.query('SELECT NOW()',(err,res) => {
@@ -15,11 +15,11 @@
 // })
 
 const client = new Client({
-    user:'postgres',
-    host:'localhost',
-    database:'postgres',
-    password:'ramanmenon',
-    port:5432
+    user:'your-username',
+    host:'your-server',
+    database:'your-database-name',
+    password:'your-password',
+    port:your-portname
 })
 
 client.connect();
